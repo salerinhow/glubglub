@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* FUNDO PROFUNDO SEM LINHAS */
 body {
     font-family: 'Oswald', sans-serif;
     background:
@@ -16,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* TEXTURA LEVE */
 body::before {
     content: "";
     position: fixed;
@@ -38,13 +36,11 @@ body::before {
     cursor: pointer;
 }
 
-/* HOVER MAIS PREMIUM */
 .logo:hover {
     color: #ffffff;
     letter-spacing: 1.5px;
 }
 
-/* TÍTULO */
 h1 {
     margin: 110px 0 50px;
     font-size: 36px;
@@ -52,7 +48,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-/* CONTAINER */
 .planos {
     display: flex;
     justify-content: center;
@@ -60,7 +55,6 @@ h1 {
     flex-wrap: wrap;
 }
 
-/* CARDS */
 .card {
     background: rgba(20,25,35,0.85);
     backdrop-filter: blur(8px);
@@ -72,26 +66,22 @@ h1 {
     transition: 0.3s;
 }
 
-/* HOVER */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 30px 80px rgba(0,0,0,0.9);
 }
 
-/* TITULO CARD */
 .card h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-/* PREÇO */
 .preco {
     font-size: 28px;
     margin-bottom: 20px;
     color: #8b5cf6;
 }
 
-/* LISTA */
 .card ul {
     list-style: none;
     margin-bottom: 25px;
@@ -104,7 +94,6 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
-/* BOTÃO */
 button {
     background: linear-gradient(90deg, #6366f1, #8b5cf6);
     border: none;
@@ -115,13 +104,11 @@ button {
     transition: 0.3s;
 }
 
-/* HOVER BOTÃO */
 button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(139,92,246,0.5);
 }
 
-/* DESTAQUE */
 .destaque {
     border: 1px solid #8b5cf6;
 }
@@ -131,7 +118,6 @@ button:hover {
     position: relative;
 }
 
-/* TAG NO TOPO DO CARD */
 .destaque::before {
     content: "MAIS POPULAR";
     position: absolute;
@@ -146,7 +132,6 @@ button:hover {
     letter-spacing: 1px;
 }
 
-/* PREMIUM */
 .premium {
     border: 1px solid #cdd9e5;
 }
