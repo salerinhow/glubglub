@@ -17,7 +17,6 @@ int apostaValida(int aposta, int saldo) {
     return 1;
 }
 
-// ===== BONUS =====
 void bonus(int *saldo) {
     int ganho = rand() % 50 + 10;
     *saldo += ganho;
