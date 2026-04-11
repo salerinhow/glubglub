@@ -69,7 +69,7 @@ void abrirCelula(char mapaJogador[MAX][MAX], char mapaBombas[MAX][MAX], int x, i
 }
 
 int escolherDificuldade(char *nomeDificuldade, int *tamanho, int *totalBombas) {
-    printf("==== CAMPO MINADO ====\n");
+    printf("==== BOMBZONE ====\n");
     printf("Escolha a dificuldade:\n");
     printf("1 - Facil (5x5, 5 bombas)\n");
     printf("2 - Medio (8x8, 10 bombas)\n");
