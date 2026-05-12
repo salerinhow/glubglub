@@ -23,7 +23,6 @@ void bonus(int *saldo) {
     printf("\n[BONUS] Voce recebeu %d moedas!\n", ganho);
 }
 
-// ===== JOGOS =====
 void jogarRoleta(int *saldo) {
     int aposta = lerInteiro("\nValor da aposta (0 = ALL IN): ");
     
