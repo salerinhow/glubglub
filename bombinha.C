@@ -41,7 +41,6 @@ void mostrarMapa(char mapa[MAX][MAX], int tamanho) {
     }
 }
 
-// ===== LOGICA =====
 int contarBombasVizinhas(char bombas[MAX][MAX], int x, int y, int tamanho) {
     int count=0;
     for(int i=x-1;i<=x+1;i++){
