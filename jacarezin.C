@@ -120,14 +120,12 @@ int main() {
                 printf("Opcao invalida!\n");
         }
 
-        // evolução
         if (saldo > ganhos + 200) {
             nivel++;
             ganhos = saldo;
             printf("\nLEVEL UP! Agora nivel %d\n", nivel);
         }
 
-        // vitória
         if (saldo >= 1000) {
             printf("\nVOCE VIROU O DONO DO CASSINO!\n");
             return 0;
